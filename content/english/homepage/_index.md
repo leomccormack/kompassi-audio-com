@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Download"
-    link: "https://github.com/leomccormack/kompassi-audio-com/releases"
+    link: "https://github.com/leomccormack/KOMPASSI-Renderer-Plugin/releases"
 
 # Features
 features:
@@ -21,7 +21,7 @@ features:
     button:
       enable: false
       label: "Find out more"
-      link: "https://github.com/leomccormack/kompassi-audio-com/releases"
+      link: "https://github.com/leomccormack/KOMPASSI-Renderer-Plugin/releases"
 
   - title: "Sound Scene Modifications"
     image: "/images/kompassi_translation.png"
