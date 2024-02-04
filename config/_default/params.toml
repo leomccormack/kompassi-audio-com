@@ -53,9 +53,9 @@ show_categories = true
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["Kompassi", "Renderer"]
+description = "Kompassi-renderer"
+author = "leomccormack.archontispolitis"
 image = "images/og-image.png"
 
 
