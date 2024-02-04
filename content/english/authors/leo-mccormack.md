@@ -1,7 +1,7 @@
 ---
 title: DSc. Leo McCormack
 email: leo.t.mccormack@gmail.com
-image: "/images/avatar.png"
+image: "/images/leoPhoto.jpg"
 description: this is meta description
 social:
   - name: github
@@ -12,9 +12,9 @@ social:
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/leomccormack/
 
-  - name: google-scholar
-    icon: ai-brands ai-google-scholar
-    link: https://scholar.google.fi/citations?user=Q0qCGo0AAAAJ&hl=en
+  - name: researchgate
+    icon: fa-brands fa-researchgate
+    link: https://www.researchgate.net/profile/Leo-Mccormack
 
 ---
 

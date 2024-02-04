@@ -1,45 +1,34 @@
 ---
 # Banner
 banner:
-  title: "Kompassi Renderer"
+  title: "KOMPASSI-Renderer"
   content: ""
-  image: "/images/kompassi_banner.png"
+  image: ""
   button:
     enable: true
     label: "Download"
-    link: "https://github.com/zeon-studio/hugoplate"
+    link: "https://github.com/leomccormack/kompassi-audio-com/releases"
 
 # Features
 features:
-  - title: "Advanced Spatial Audio Codec"
+  - title: "An Advanced Spatial Audio Codec"
     image: "/images/kompassi_renderer_GUI.png"
-    content: "An spatial sound scene reproduction plugin:"
+    content: "Our most advanced parametric rendering algorithms all re-written and intergrated into a highly configurable encoder and decoder. The renderer plugin, which serves as a demo of the codec, currently supports:"
     bulletpoints:
-      - "Supports Ambisonics and arbitrary microphone array recordings as input"
-      - "The plugin can output signals for binaural or arbitrary loudspeaker array based listening"
-      - "Processing is separated into dedicated encoder and decoder blocks"  
-      - "Supports loading SOFA files containing head-related impulse responses (HRIRs/HRTFs) for personalised headphone listening."
+      - "Ambisonics or tetrahedral/A-format microphone array recordings as input"
+      - "Binaural playback"
+      - "A SOFA loader, allowing for personalised binaural listening"
     button:
       enable: false
       label: "Find out more"
-      link: "https://leomccormack.github.io/sparta-site/"
+      link: "https://github.com/leomccormack/kompassi-audio-com/releases"
 
-  - title: "Highly Customisable"
-    image: "/images/kompassi_renderer_GUI_adv.png"
-    content: "Many of the internal parameters can be exposed to the user in the advanced tab:"
-    bulletpoints:
-      - "Supports loading SOFA files containing microphone array impulse responses, if using a custom array configuration for which there is no preset in the plugin."
-      - "hhh"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
-
-  - title: "Supports Spatial Audio Effects"
+  - title: "Sound Scene Modifications"
     image: "/images/kompassi_translation.png"
-    content: "Due to the decoupling of the encoder and decoder, many spatial audio effects can be achieved:"
+    content: "Optionally, the spatial parameter stream produced by the encoder, may be intercepted and augmented before being passed onto the decoder. Currently, this is conducted by the renderer plugin to enable:"
     bulletpoints:
-      - "Spatial metadata outputted by the encoder can be intercepted and modified prior to reproducing the scene (e.g. for enabling 3DoF/6DoF support)" 
+      - "Six-degrees of Freedom (6DoF) support (i.e., accounting for both listener head-rotations and translations away from the recording point)"
+      - "Biasing the reproduction to give more prominence to either the ambience in the scene or directional sounds"
     button:
       enable: false
       label: ""

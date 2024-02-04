@@ -38,6 +38,11 @@ url = "authors/"
 
 #[[main]]
 #parent = "Pages"
+#name = "Blog"
+#url = "blog/"
+
+#[[main]]
+#parent = "Pages"
 #name = "Categories"
 #url = "categories/"
 
