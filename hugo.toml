@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "/"
+baseURL = "https://leomccormack.github.io/kompassi-audio-com/"
 # Title of your website (required).
 title = "Kompassi Audio"
 # Your theme name
