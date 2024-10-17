@@ -18,4 +18,4 @@ social:
 
 ---
 
-Doctoral thesis title: "Parametric reproduction of microphone array recodings". 
+Doctoral thesis title: "Parametric reproduction of microphone array recordings". 
